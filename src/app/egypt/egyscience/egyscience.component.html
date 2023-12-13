@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row gap-0 mt-5 mb-5 row-gap-3">
+    <div *ngFor="let scin of science" class="col-md-3">
+      <div class="card" style="width: 18rem; height: 330px;">
+        <img  src="../../../assets/download (1).png" class="card-img-top">
+        <div class="card-body position-relative">
+          <h5 class="card-title fw-bolder ">{{scin.title}}</h5>
+          <a href="{{scin.url}}" target="_blank" class="btn btn-primary">see more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

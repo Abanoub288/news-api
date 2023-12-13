@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row gap-0 mt-5 mb-5 row-gap-3">
+    <div *ngFor="let sport of sports" class="col-md-3">
+      <div class="card" style="width: 18rem; height: 350px;">
+        <img [src]="sport.urlToImage !== null ? sport.urlToImage : img" src="{{sport.urlToImage}}" class="card-img-top h-50">
+        <div class="card-body position-relative">
+          <h5 title="{{sport.title}}" class="card-title fw-bolder">{{sport.title}}</h5>
+          <p class="card-text">{{sport.description}}</p>
+          <a href="{{sport.url}}" target="_blank" class="btn btn-primary">see more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

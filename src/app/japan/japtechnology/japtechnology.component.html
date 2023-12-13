@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row gap-0 mb-5 mt-5 row-gap-3">
+    <div *ngFor="let new of technology" class="col-md-3">
+      <div class="card" style="width: 18rem; height: 400px;">
+        <img [src]="new.urlToImage !== null ? new.urlToImage : img" src="{{new.urlToImage}}" class="card-img-top"
+          height="150px" alt="...">
+        <div class="card-body position-relative">
+          <h5 title="{{new.title}}" class="card-title fw-bolder">{{new.title}}</h5>
+          <p class="card-text" style="height: 70px;">{{new.description}}</p>
+          <a href="{{new.url}}" target="_blank" class="btn btn-primary">see more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

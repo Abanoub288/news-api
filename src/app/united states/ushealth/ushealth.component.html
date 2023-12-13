@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row gap-0 mt-5 mb-5 row-gap-3">
+    <div *ngFor="let hel of health" class="col-md-3">
+      <div class="card" style="width: 18rem; height: 350px;">
+        <img [src]="hel.urlToImage !== null ? hel.urlToImage : img" class="card-img-top h-50">
+        <div class="card-body position-relative">
+          <h5 title="{{hel.title}}" class="card-title fw-bolder">{{hel.title}}</h5>
+          <p class="card-text">{{hel.description}}</p>
+          <a href="{{hel.url}}" target="_blank" class="btn btn-primary">see more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row gap-0 mb-5 mt-5 row-gap-3">
+    <div *ngFor="let tec of tecnolg" class="col-md-3">
+      <div class="card" style="width: 18rem; height: 350px;">
+        <img [src]="tec.urlToImage !== null ? tec.urlToImage : img" src="{{tec.urlToImage}}" class="card-img-top">
+        <div class="card-body position-relative">
+          <h5 class="card-title fw-bolder">{{tec.title}}</h5>
+          <a href="{{tec.url}}" target="_blank" class="btn btn-primary">see more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

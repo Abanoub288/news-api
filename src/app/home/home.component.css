@@ -1,0 +1,51 @@
+.card {
+  border: 4px solid black !important;
+}
+.card a {
+  text-decoration: none;
+  color: white;
+}
+.card:hover {
+  cursor: pointer;
+  background-color: rgba(255, 0, 0, 1) !important;
+}
+.card:hover .btn {
+  background: black !important;
+  color: white;
+}
+img {
+  padding: 5px;
+  margin-right: 10px;
+}
+h5 {
+  font-weight: bold;
+  line-height: -3px;
+  font-size: 20px;
+}
+.btn {
+  background-color: #ccc !important;
+  border: none !important;
+  font-weight: bold;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 10px;
+  color: black;
+}
+.h5 {
+  margin-bottom: 0;
+  border: 5px solid;
+  border-color: rgba(255, 0, 0, 1) !important;
+}
+.card .text p {
+  max-height: 50px;
+  overflow: hidden;
+}
+.trending a {
+  text-decoration: none;
+  color: black;
+}
+.trending:hover {
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+

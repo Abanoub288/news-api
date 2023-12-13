@@ -1,0 +1,25 @@
+.card {
+  overflow: hidden;
+}
+.btn {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-left: 12px;
+  margin-bottom: 5px;
+  background-color: #ccc !important;
+  border: none !important;
+  font-weight: bold;
+  color: black;
+}
+h5 {
+  height: 100px;
+  overflow: hidden;
+}
+h2 {
+  font-size: 40px;
+  margin-left: 15px;
+}
+p {
+  overflow: hidden;
+}
